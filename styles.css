@@ -1,0 +1,134 @@
+*,
+*: after,
+*: before {
+  box-sizing: border-box;;
+}
+
+body {
+  background-color: #D0CFC5;
+  color: #32332A;
+  font-family: 'Muli', sans-serif;
+}
+
+.txt-blue {
+  color: #306BA2;
+}
+
+.txt-white {
+  color: #FFFFFF;
+}
+
+.txt-gray {
+  color: #757C82;
+}
+
+nav {
+  background-color: #32332A;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-of-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.username-container {
+  display: flex;
+  margin-right: 3%;
+  margin-top: 1%;
+}
+
+.bottom-of-nav {
+  display: flex;
+}
+
+.nav-items {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  margin-left: 2%;
+}
+
+.shares-container, .playlist-container, .videos-container {
+  display: flex;
+}
+.logo-container {
+  display: flex;
+  flex: 2;
+  justify-content: flex-end;
+  margin-right: 3%;
+}
+
+.shares-title {
+  margin: 2% 0 0 3%;
+}
+
+main {
+  margin: 1%;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 1 auto;
+  justify-content: space-around;
+}
+
+.inner-main-containers {
+  background-color: #FFFFFF;
+  margin-top: 2%;
+  width: 300px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-transparency {
+  opacity: 0.5;
+}
+
+.fa-share-square {
+  font-size: 250%;
+  left: 0;
+  margin-left: 5%;
+  margin-top: 5%;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.view-align {
+  margin-right: 5%;
+  margin-top: 5%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+}
+
+h4, h1, p, .date {
+  margin: 0;
+}
+
+.recipient-container {
+margin: 6%;
+}
+
+h6 {
+  color: #D0CFC5;
+  margin: 6% 0 0 0;
+}
+
+.weblink-container {
+  background-color: #D0CFC5;
+  margin: 6% 0 0 0;
+  overflow-wrap: break-word;
+}
+
+h2 {
+  margin: 0 0 4% 0;
+}
