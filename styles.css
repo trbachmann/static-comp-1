@@ -3,7 +3,6 @@
 *: before {
   box-sizing: border-box;;
 }
-
 body {
   background-color: #D0CFC5;
   color: #32332A;
@@ -25,41 +24,50 @@ body {
 nav {
   background-color: #32332A;
   display: flex;
-  display: flex;
   flex-direction: column;
 }
 
 .top-of-nav {
   display: flex;
   justify-content: flex-end;
+  margin-right: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
-.username-container {
-  display: flex;
-  margin-right: 3%;
-  margin-top: 1%;
+.fa-user-circle, .user-name {
+  padding-right: 10px;
 }
 
 .bottom-of-nav {
   display: flex;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+.fa-bars {
+  display: none;
 }
 
 .nav-items {
-  align-items: center;
+  list-style-type: none;
   display: flex;
-  flex: 1;
-  justify-content: space-around;
-  margin-left: 2%;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-top: 8px;
 }
 
-.shares-container, .playlist-container, .videos-container {
-  display: flex;
+.fa-share-alt {
+  padding-right: 10px;
 }
-.logo-container {
-  display: flex;
-  flex: 2;
-  justify-content: flex-end;
-  margin-right: 3%;
+
+.fa-list-ul, .fa-user {
+  padding-right: 10px;
+  padding-left: 30px;
+}
+
+.logo {
+  height: 50%;
 }
 
 .shares-title {
@@ -75,6 +83,8 @@ main {
   flex-wrap: wrap;
   flex: 0 1 auto;
   justify-content: space-around;
+  width: 100%;
+  margin: auto;
 }
 
 .inner-main-containers {
@@ -88,7 +98,7 @@ main {
 }
 
 .image-transparency {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .fa-share-square {
@@ -124,11 +134,39 @@ h6 {
 }
 
 .weblink-container {
-  background-color: #D0CFC5;
+  /*background-color: #D0CFC5;*/
+  /*background-color: #ecebe7;*/
+  background-color: #f0f0ed;
   margin: 6% 0 0 0;
   overflow-wrap: break-word;
 }
 
 h2 {
   margin: 0 0 4% 0;
+}
+
+@media screen and (max-width: 760px) {
+  .nav-items {
+    display: none;
+  } 
+
+  .fa-bars {
+  color: #306BA2;
+  font-size: 30px;
+  flex: 1;
+  margin-left: 25px;
+  }
+
+}
+
+@media screen and (min-width: 1450px) {
+  .main-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 1 auto;
+  justify-content: space-around;
+  width: 75%;
+  margin: auto;
+  }  
+
 }
