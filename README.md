@@ -14,4 +14,4 @@ This project was taking the static comp below, recreating the layout and making 
 
 ### Final Site
 
-![Screenshot of final site recreation]()
+![Screenshot of final site recreation](./images/static-comp-final-screenshot.png)
