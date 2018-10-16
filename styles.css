@@ -157,11 +157,22 @@ h2 {
 
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1500px) and (max-width: 1600px) {
   .main-content {
   display: flex;
   flex-wrap: wrap;
   flex: auto 1 auto;
+  justify-content: space-around;
+  width: 95%;
+  margin: auto;
+  }  
+}
+
+@media screen and (min-width: 1445px) {
+  .main-content {
+  display: flex;
+  flex-wrap: wrap;
+/*  flex: auto 1 auto;*/
   justify-content: space-around;
   width: 75%;
   margin: auto;
